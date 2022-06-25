@@ -10,7 +10,17 @@ int main()
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 
-    cout<<"Hello World"<<endl;
+    queue<string> q;
+    q.push("Sailendra");
+    q.push("Chettri");
+    q.push("Namthang");
+
+    cout<<"first: "<<q.front()<<endl;
+    cout<<"size: "<<q.size()<<endl;
+    q.pop();
+    cout<<"first: "<<q.front()<<endl;
+
+    cout<<"size: "<<q.size()<<endl;
 
     return 0;
 }
