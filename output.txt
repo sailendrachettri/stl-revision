@@ -1,8 +1,0 @@
-55 45 25 10 
-55 45 25 10 
-Front: 55
-Back: 10
-Empty or Not: 0
-Size: 4
-Size: 2
-25 10 
