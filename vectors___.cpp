@@ -16,7 +16,7 @@ int main()
 {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-
+    
     /*
     - Vector is an dynamic array
     - Whenever the vector hit the max size it create new vector (2X size) and copy all the elements and dump the old one
