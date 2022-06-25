@@ -21,5 +21,10 @@ int main()
         cout<<arr[i]<<" ";
     }
 
+    cout<<endl<<arr.at(3); // element at index __ O(1)
+    cout<<endl<<arr.empty(); // empty or not O(1)
+    cout<<endl<<arr.front();//first element O(1)
+    cout<<endl<<arr.back(); // last element O(1)
+
     return 0;
 }
